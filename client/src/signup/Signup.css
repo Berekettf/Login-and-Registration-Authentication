@@ -1,0 +1,84 @@
+.authcontainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(73, 74, 75);
+}
+.regWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    gap: 12px;
+}
+.regtop{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 12px;
+}
+.forminput{
+    height: 37px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+.reg-btn{
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.reg-btn:hover{
+    background-color: fuchsia;
+}
+.already{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin: 15px 0 15px 34px;
+}
+.form-link{
+    text-decoration: none;
+    color: white;
+    
+ }
+.reg-log{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(30, 26, 226);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.reg-log:hover{
+    background-color: rgb(220, 20, 187);
+}
